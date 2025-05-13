@@ -1,0 +1,155 @@
+2025-05-12 21:35:02,433 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-12 21:35:02,434 - telegram.ext._application - INFO - Application started
+2025-05-12 21:35:07,091 - __main__ - ERROR - Update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Stronberg', id=5961765624, type=<ChatType.PRIVATE>, username='stronberg69'), date=datetime.datetime(2025, 5, 12, 18, 35, 9, tzinfo=<UTC>), delete_chat_photo=False, entities=(MessageEntity(length=6, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Stronberg', id=5961765624, is_bot=False, language_code='ru', username='stronberg69'), group_chat_created=False, message_id=5, supergroup_chat_created=False, text='/start'), update_id=268748417) caused error object int can't be used in 'await' expression
+2025-05-12 21:35:07,091 - telegram.ext._application - ERROR - An error was raised and an uncaught error was raised while handling the error with an error_handler.
+Traceback (most recent call last):
+  File "C:\Users\boomb\PycharmProjects\kupiprodaybot\.venv\Lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\boomb\PycharmProjects\kupiprodaybot\.venv\Lib\site-packages\telegram\ext\_conversationhandler.py", line 824, in handle_update
+    new_state: object = await handler.handle_update(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        update, application, handler_check_result, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\boomb\PycharmProjects\kupiprodaybot\.venv\Lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object int can't be used in 'await' expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\boomb\PycharmProjects\kupiprodaybot\.venv\Lib\site-packages\telegram\ext\_application.py", line 1576, in process_error
+    await callback(update, context)
+TypeError: object NoneType can't be used in 'await' expression
+2025-05-12 21:40:45,488 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-12 21:40:45,488 - telegram.ext._application - INFO - Application started
+2025-05-12 21:40:48,776 - __main__ - ERROR - Update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Stronberg', id=5961765624, type=<ChatType.PRIVATE>, username='stronberg69'), date=datetime.datetime(2025, 5, 12, 18, 40, 50, tzinfo=<UTC>), delete_chat_photo=False, entities=(MessageEntity(length=6, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Stronberg', id=5961765624, is_bot=False, language_code='ru', username='stronberg69'), group_chat_created=False, message_id=6, supergroup_chat_created=False, text='/start'), update_id=268748418) caused error object int can't be used in 'await' expression
+2025-05-12 21:40:48,776 - telegram.ext._application - ERROR - An error was raised and an uncaught error was raised while handling the error with an error_handler.
+Traceback (most recent call last):
+  File "C:\Users\boomb\PycharmProjects\kupiprodaybot\.venv\Lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\boomb\PycharmProjects\kupiprodaybot\.venv\Lib\site-packages\telegram\ext\_conversationhandler.py", line 824, in handle_update
+    new_state: object = await handler.handle_update(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        update, application, handler_check_result, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\boomb\PycharmProjects\kupiprodaybot\.venv\Lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object int can't be used in 'await' expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\boomb\PycharmProjects\kupiprodaybot\.venv\Lib\site-packages\telegram\ext\_application.py", line 1576, in process_error
+    await callback(update, context)
+TypeError: object NoneType can't be used in 'await' expression
+2025-05-12 21:42:13,308 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2025-05-12 21:42:13,309 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-12 21:42:13,332 - telegram.ext._application - INFO - Application.stop() complete
+2025-05-12 21:42:21,240 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-12 21:42:21,241 - telegram.ext._application - INFO - Application started
+2025-05-12 21:47:29,490 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2025-05-12 21:47:29,491 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-12 21:47:29,508 - telegram.ext._application - INFO - Application.stop() complete
+2025-05-12 21:47:38,805 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-12 21:47:38,806 - telegram.ext._application - INFO - Application started
+2025-05-12 21:51:18,422 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2025-05-12 21:51:18,423 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-12 21:51:18,436 - telegram.ext._application - INFO - Application.stop() complete
+2025-05-12 21:51:26,327 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-12 21:51:26,327 - telegram.ext._application - INFO - Application started
+2025-05-12 21:54:31,196 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2025-05-12 21:54:31,197 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-12 21:54:31,208 - telegram.ext._application - INFO - Application.stop() complete
+2025-05-12 21:54:37,859 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-12 21:54:37,860 - telegram.ext._application - INFO - Application started
+2025-05-12 21:55:21,386 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2025-05-12 21:55:21,388 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-12 21:55:21,408 - telegram.ext._application - INFO - Application.stop() complete
+2025-05-12 21:55:26,905 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-12 21:55:26,906 - telegram.ext._application - INFO - Application started
+2025-05-13 09:12:28,496 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-13 09:12:28,498 - telegram.ext._application - INFO - Application started
+2025-05-13 09:15:05,284 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2025-05-13 09:15:05,285 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-13 09:15:05,307 - telegram.ext._application - INFO - Application.stop() complete
+2025-05-13 09:15:09,953 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-13 09:15:09,954 - telegram.ext._application - INFO - Application started
+2025-05-13 09:18:31,874 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2025-05-13 09:18:31,875 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-13 09:18:31,892 - telegram.ext._application - INFO - Application.stop() complete
+2025-05-13 09:18:41,361 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-13 09:18:41,362 - telegram.ext._application - INFO - Application started
+2025-05-13 09:21:52,771 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2025-05-13 09:21:52,772 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-13 09:21:52,787 - telegram.ext._application - INFO - Application.stop() complete
+2025-05-13 09:25:24,435 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-13 09:25:24,436 - telegram.ext._application - INFO - Application started
+2025-05-13 09:27:04,419 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2025-05-13 09:27:04,420 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-13 09:27:04,442 - telegram.ext._application - INFO - Application.stop() complete
+2025-05-13 09:27:20,625 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-13 09:27:20,626 - telegram.ext._application - INFO - Application started
+2025-05-13 09:29:39,683 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2025-05-13 09:29:39,684 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-13 09:29:39,709 - telegram.ext._application - INFO - Application.stop() complete
+2025-05-13 09:29:46,877 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-13 09:29:46,878 - telegram.ext._application - INFO - Application started
+2025-05-13 09:30:29,227 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2025-05-13 09:30:29,227 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-13 09:30:29,246 - telegram.ext._application - INFO - Application.stop() complete
+2025-05-13 09:30:36,200 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-13 09:30:36,201 - telegram.ext._application - INFO - Application started
+2025-05-13 09:30:53,731 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2025-05-13 09:30:53,731 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-13 09:30:53,753 - telegram.ext._application - INFO - Application.stop() complete
+2025-05-13 09:30:58,868 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-13 09:30:58,869 - telegram.ext._application - INFO - Application started
+2025-05-13 10:22:14,212 - __main__ - ERROR - Ошибка при сохранении фото: Timed out
+2025-05-13 10:22:19,298 - __main__ - ERROR - Update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Stronberg', id=5961765624, type=<ChatType.PRIVATE>, username='stronberg69'), date=datetime.datetime(2025, 5, 13, 7, 22, 7, tzinfo=<UTC>), delete_chat_photo=False, from_user=User(first_name='Stronberg', id=5961765624, is_bot=False, language_code='ru', username='stronberg69'), group_chat_created=False, media_group_id='13976967416058506', message_id=496, photo=(PhotoSize(file_id='AgACAgIAAxkBAAIB8Ggi8x7BipGR36R-AAEVP-h4-TmXzAACj-wxG5GOGUmEtXHczlg1DAEAAwIAA3MAAzYE', file_size=796, file_unique_id='AQADj-wxG5GOGUl4', height=51, width=90), PhotoSize(file_id='AgACAgIAAxkBAAIB8Ggi8x7BipGR36R-AAEVP-h4-TmXzAACj-wxG5GOGUmEtXHczlg1DAEAAwIAA20AAzYE', file_size=10153, file_unique_id='AQADj-wxG5GOGUly', height=180, width=320), PhotoSize(file_id='AgACAgIAAxkBAAIB8Ggi8x7BipGR36R-AAEVP-h4-TmXzAACj-wxG5GOGUmEtXHczlg1DAEAAwIAA3gAAzYE', file_size=48994, file_unique_id='AQADj-wxG5GOGUl9', height=450, width=800), PhotoSize(file_id='AgACAgIAAxkBAAIB8Ggi8x7BipGR36R-AAEVP-h4-TmXzAACj-wxG5GOGUmEtXHczlg1DAEAAwIAA3kAAzYE', file_size=94452, file_unique_id='AQADj-wxG5GOGUl-', height=720, width=1280)), supergroup_chat_created=False), update_id=268748620) caused error Timed out
+2025-05-13 10:25:05,913 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2025-05-13 10:25:05,916 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-13 10:25:05,933 - telegram.ext._application - INFO - Application.stop() complete
+2025-05-13 10:25:11,342 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-13 10:25:11,343 - telegram.ext._application - INFO - Application started
+2025-05-13 11:36:43,920 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: 
+2025-05-13 11:36:43,947 - __main__ - ERROR - Update None caused error httpx HTTPError: 
+2025-05-13 12:10:50,897 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: 
+2025-05-13 12:10:50,898 - __main__ - ERROR - Update None caused error httpx HTTPError: 
+2025-05-13 12:54:55,520 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:54:55,523 - __main__ - ERROR - Update None caused error httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:11,561 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:11,561 - __main__ - ERROR - Update None caused error httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:12,570 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:12,571 - __main__ - ERROR - Update None caused error httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:14,085 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:14,086 - __main__ - ERROR - Update None caused error httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:16,351 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:16,351 - __main__ - ERROR - Update None caused error httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:24,762 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:24,763 - __main__ - ERROR - Update None caused error httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:25,770 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:25,771 - __main__ - ERROR - Update None caused error httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:27,284 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:27,285 - __main__ - ERROR - Update None caused error httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:29,539 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:29,539 - __main__ - ERROR - Update None caused error httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:32,932 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:32,932 - __main__ - ERROR - Update None caused error httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:38,006 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:38,006 - __main__ - ERROR - Update None caused error httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:45,610 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:45,610 - __main__ - ERROR - Update None caused error httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:57,014 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:55:57,014 - __main__ - ERROR - Update None caused error httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:56:14,120 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 12:56:14,120 - __main__ - ERROR - Update None caused error httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 13:06:06,016 - telegram.ext._updater - ERROR - Error while getting Updates: httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 13:06:06,017 - __main__ - ERROR - Update None caused error httpx HTTPError: [Errno 11001] getaddrinfo failed
+2025-05-13 15:10:14,379 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-13 15:10:14,380 - telegram.ext._application - INFO - Application started
